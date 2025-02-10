@@ -1,0 +1,464 @@
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+
+-----------------------------------------------------------------
+Begin Other violations...
+
+Warning: Cell DUT_CLK_GATE/U0_TLATNCAX12M has constant 1 value. (TEST-505)
+
+Other violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 1
+
+-----------------------------------------------------------------
+
+1 OTHER VIOLATION
+     1 Cell is constant 1 violation (TEST-505)
+
+
+Warning: Violations occurred during test design rule checking. (TEST-124)
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  1 out of 362 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITH VIOLATIONS
+      *   1 cell has constant 1 value
+         DUT_CLK_GATE/U0_TLATNCAX12M
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      * 361 cells are valid scan cells
+         DUT_DATA_SYNC/enable_pulse_reg
+         DUT_DATA_SYNC/sync_reg_reg_1_
+         DUT_DATA_SYNC/pulse_reg
+         DUT_DATA_SYNC/sync_reg_reg_0_
+         DUT_DATA_SYNC/sync_bus_reg_6_
+         DUT_DATA_SYNC/sync_bus_reg_1_
+         DUT_DATA_SYNC/sync_bus_reg_3_
+         DUT_DATA_SYNC/sync_bus_reg_0_
+         DUT_DATA_SYNC/sync_bus_reg_5_
+         DUT_DATA_SYNC/sync_bus_reg_7_
+         DUT_DATA_SYNC/sync_bus_reg_2_
+         DUT_DATA_SYNC/sync_bus_reg_4_
+         DUT_PULSE_GEN/pls_flop_reg
+         DUT_PULSE_GEN/rcv_flop_reg
+         DUT_SYS_CTRL/Current_State_reg_0_
+         DUT_SYS_CTRL/Current_State_reg_1_
+         DUT_SYS_CTRL/Current_State_reg_2_
+         DUT_SYS_CTRL/Temp_Address_reg_3_
+         DUT_SYS_CTRL/Temp_Address_reg_2_
+         DUT_SYS_CTRL/Temp_Address_reg_1_
+         DUT_SYS_CTRL/Temp_Address_reg_0_
+         DUT_SYS_CTRL/Current_State_reg_3_
+         DUT_REGFILE/regArr_reg_2__5_
+         DUT_REGFILE/regArr_reg_11__7_
+         DUT_REGFILE/regArr_reg_11__6_
+         DUT_REGFILE/regArr_reg_11__5_
+         DUT_REGFILE/regArr_reg_11__4_
+         DUT_REGFILE/regArr_reg_11__3_
+         DUT_REGFILE/regArr_reg_11__2_
+         DUT_REGFILE/regArr_reg_11__1_
+         DUT_REGFILE/regArr_reg_9__7_
+         DUT_REGFILE/regArr_reg_9__6_
+         DUT_REGFILE/regArr_reg_9__5_
+         DUT_REGFILE/regArr_reg_9__4_
+         DUT_REGFILE/regArr_reg_9__3_
+         DUT_REGFILE/regArr_reg_9__2_
+         DUT_REGFILE/regArr_reg_9__1_
+         DUT_REGFILE/regArr_reg_10__7_
+         DUT_REGFILE/regArr_reg_10__6_
+         DUT_REGFILE/regArr_reg_10__5_
+         DUT_REGFILE/regArr_reg_10__4_
+         DUT_REGFILE/regArr_reg_10__3_
+         DUT_REGFILE/regArr_reg_10__2_
+         DUT_REGFILE/regArr_reg_10__1_
+         DUT_REGFILE/regArr_reg_8__7_
+         DUT_REGFILE/regArr_reg_8__6_
+         DUT_REGFILE/regArr_reg_8__5_
+         DUT_REGFILE/regArr_reg_8__4_
+         DUT_REGFILE/regArr_reg_8__3_
+         DUT_REGFILE/regArr_reg_8__2_
+         DUT_REGFILE/regArr_reg_8__1_
+         DUT_REGFILE/regArr_reg_11__0_
+         DUT_REGFILE/regArr_reg_9__0_
+         DUT_REGFILE/regArr_reg_10__0_
+         DUT_REGFILE/regArr_reg_8__0_
+         DUT_REGFILE/RdData_reg_7_
+         DUT_REGFILE/RdData_reg_5_
+         DUT_REGFILE/RdData_reg_1_
+         DUT_REGFILE/RdData_reg_0_
+         DUT_REGFILE/regArr_reg_7__7_
+         DUT_REGFILE/regArr_reg_7__6_
+         DUT_REGFILE/regArr_reg_7__5_
+         DUT_REGFILE/regArr_reg_7__4_
+         DUT_REGFILE/regArr_reg_7__3_
+         DUT_REGFILE/regArr_reg_7__2_
+         DUT_REGFILE/regArr_reg_7__1_
+         DUT_REGFILE/regArr_reg_6__7_
+         DUT_REGFILE/regArr_reg_6__6_
+         DUT_REGFILE/regArr_reg_6__5_
+         DUT_REGFILE/regArr_reg_6__4_
+         DUT_REGFILE/regArr_reg_6__3_
+         DUT_REGFILE/regArr_reg_6__2_
+         DUT_REGFILE/regArr_reg_6__1_
+         DUT_REGFILE/regArr_reg_5__7_
+         DUT_REGFILE/regArr_reg_5__6_
+         DUT_REGFILE/regArr_reg_5__5_
+         DUT_REGFILE/regArr_reg_5__4_
+         DUT_REGFILE/regArr_reg_5__3_
+         DUT_REGFILE/regArr_reg_5__2_
+         DUT_REGFILE/regArr_reg_5__1_
+         DUT_REGFILE/regArr_reg_4__7_
+         DUT_REGFILE/regArr_reg_4__6_
+         DUT_REGFILE/regArr_reg_4__5_
+         DUT_REGFILE/regArr_reg_4__4_
+         DUT_REGFILE/regArr_reg_4__3_
+         DUT_REGFILE/regArr_reg_4__2_
+         DUT_REGFILE/regArr_reg_4__1_
+         DUT_REGFILE/regArr_reg_2__3_
+         DUT_REGFILE/regArr_reg_7__0_
+         DUT_REGFILE/regArr_reg_6__0_
+         DUT_REGFILE/regArr_reg_5__0_
+         DUT_REGFILE/regArr_reg_4__0_
+         DUT_REGFILE/RdData_reg_4_
+         DUT_REGFILE/RdData_reg_2_
+         DUT_REGFILE/RdData_reg_6_
+         DUT_REGFILE/RdData_reg_3_
+         DUT_REGFILE/regArr_reg_2__7_
+         DUT_REGFILE/regArr_reg_2__2_
+         DUT_REGFILE/regArr_reg_2__4_
+         DUT_REGFILE/regArr_reg_1__7_
+         DUT_REGFILE/regArr_reg_1__0_
+         DUT_REGFILE/regArr_reg_1__5_
+         DUT_REGFILE/regArr_reg_1__4_
+         DUT_REGFILE/regArr_reg_1__1_
+         DUT_REGFILE/regArr_reg_1__2_
+         DUT_REGFILE/regArr_reg_1__3_
+         DUT_REGFILE/regArr_reg_3__1_
+         DUT_REGFILE/RdData_VLD_reg
+         DUT_REGFILE/regArr_reg_2__1_
+         DUT_REGFILE/regArr_reg_3__0_
+         DUT_REGFILE/regArr_reg_3__4_
+         DUT_REGFILE/regArr_reg_2__0_
+         DUT_REGFILE/regArr_reg_3__6_
+         DUT_REGFILE/regArr_reg_3__3_
+         DUT_REGFILE/regArr_reg_3__2_
+         DUT_REGFILE/regArr_reg_0__7_
+         DUT_REGFILE/regArr_reg_0__5_
+         DUT_REGFILE/regArr_reg_0__4_
+         DUT_REGFILE/regArr_reg_0__0_
+         DUT_REGFILE/regArr_reg_3__7_
+         DUT_REGFILE/regArr_reg_0__3_
+         DUT_REGFILE/regArr_reg_0__2_
+         DUT_REGFILE/regArr_reg_1__6_
+         DUT_REGFILE/regArr_reg_0__1_
+         DUT_REGFILE/regArr_reg_0__6_
+         DUT_REGFILE/regArr_reg_2__6_
+         DUT_REGFILE/regArr_reg_15__7_
+         DUT_REGFILE/regArr_reg_15__6_
+         DUT_REGFILE/regArr_reg_15__5_
+         DUT_REGFILE/regArr_reg_15__4_
+         DUT_REGFILE/regArr_reg_15__3_
+         DUT_REGFILE/regArr_reg_15__2_
+         DUT_REGFILE/regArr_reg_15__1_
+         DUT_REGFILE/regArr_reg_15__0_
+         DUT_REGFILE/regArr_reg_14__6_
+         DUT_REGFILE/regArr_reg_14__5_
+         DUT_REGFILE/regArr_reg_14__4_
+         DUT_REGFILE/regArr_reg_14__3_
+         DUT_REGFILE/regArr_reg_14__2_
+         DUT_REGFILE/regArr_reg_14__1_
+         DUT_REGFILE/regArr_reg_14__0_
+         DUT_REGFILE/regArr_reg_13__7_
+         DUT_REGFILE/regArr_reg_13__6_
+         DUT_REGFILE/regArr_reg_13__5_
+         DUT_REGFILE/regArr_reg_13__4_
+         DUT_REGFILE/regArr_reg_13__3_
+         DUT_REGFILE/regArr_reg_13__2_
+         DUT_REGFILE/regArr_reg_13__1_
+         DUT_REGFILE/regArr_reg_13__0_
+         DUT_REGFILE/regArr_reg_12__7_
+         DUT_REGFILE/regArr_reg_12__6_
+         DUT_REGFILE/regArr_reg_12__5_
+         DUT_REGFILE/regArr_reg_12__4_
+         DUT_REGFILE/regArr_reg_12__3_
+         DUT_REGFILE/regArr_reg_12__2_
+         DUT_REGFILE/regArr_reg_12__1_
+         DUT_REGFILE/regArr_reg_12__0_
+         DUT_REGFILE/regArr_reg_14__7_
+         DUT_REGFILE/regArr_reg_3__5_
+         DUT_ALU/ALU_OUT_reg_8_
+         DUT_ALU/ALU_OUT_reg_7_
+         DUT_ALU/ALU_OUT_reg_6_
+         DUT_ALU/ALU_OUT_reg_0_
+         DUT_ALU/ALU_OUT_reg_4_
+         DUT_ALU/ALU_OUT_reg_3_
+         DUT_ALU/ALU_OUT_reg_2_
+         DUT_ALU/ALU_OUT_reg_5_
+         DUT_ALU/ALU_OUT_reg_1_
+         DUT_ALU/ALU_OUT_reg_15_
+         DUT_ALU/ALU_OUT_reg_14_
+         DUT_ALU/ALU_OUT_reg_13_
+         DUT_ALU/ALU_OUT_reg_12_
+         DUT_ALU/ALU_OUT_reg_11_
+         DUT_ALU/ALU_OUT_reg_10_
+         DUT_ALU/ALU_OUT_reg_9_
+         DUT_ALU/OUT_VALID_reg
+         DUT_RST_SYNC_1/sync_reg_reg_0_
+         DUT_RST_SYNC_1/sync_reg_reg_1_
+         DUT_RST_SYNC_2/sync_reg_reg_0_
+         DUT_RST_SYNC_2/sync_reg_reg_1_
+         DUT_CLKDIV_TX/odd_edge_tog_reg
+         DUT_CLKDIV_TX/div_clk_reg
+         DUT_CLKDIV_TX/count_reg_6_
+         DUT_CLKDIV_TX/count_reg_4_
+         DUT_CLKDIV_TX/count_reg_5_
+         DUT_CLKDIV_TX/count_reg_3_
+         DUT_CLKDIV_TX/count_reg_0_
+         DUT_CLKDIV_TX/count_reg_2_
+         DUT_CLKDIV_TX/count_reg_1_
+         DUT_CLKDIV_RX/odd_edge_tog_reg
+         DUT_CLKDIV_RX/div_clk_reg
+         DUT_CLKDIV_RX/count_reg_0_
+         DUT_CLKDIV_RX/count_reg_6_
+         DUT_CLKDIV_RX/count_reg_5_
+         DUT_CLKDIV_RX/count_reg_4_
+         DUT_CLKDIV_RX/count_reg_3_
+         DUT_CLKDIV_RX/count_reg_2_
+         DUT_CLKDIV_RX/count_reg_1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_4__7_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_4__6_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_4__5_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_4__4_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_4__3_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_4__2_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_4__1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_4__0_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_7__7_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_7__6_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_7__5_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_7__4_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_7__3_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_7__2_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_7__1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_7__0_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_6__7_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_6__6_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_6__5_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_6__4_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_6__3_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_6__2_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_6__1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_6__0_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_5__7_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_5__6_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_5__5_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_5__4_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_5__3_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_5__2_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_5__1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_5__0_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_1__7_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_1__6_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_1__5_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_1__4_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_1__3_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_1__2_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_1__1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_1__0_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_0__7_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_0__6_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_0__5_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_0__4_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_0__3_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_0__2_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_0__1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_0__0_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_3__7_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_3__6_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_3__5_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_3__4_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_3__3_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_3__2_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_3__1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_3__0_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_2__7_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_2__6_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_2__5_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_2__4_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_2__3_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_2__2_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_2__1_
+         DUT_FIFO/DUT_fifo_mem/FIFO_MEM_reg_2__0_
+         DUT_FIFO/DUT_fifo_wr/Waddr_reg_3_
+         DUT_FIFO/DUT_fifo_wr/Waddr_reg_2_
+         DUT_FIFO/DUT_fifo_wr/gray_wr_ptr_reg_2_
+         DUT_FIFO/DUT_fifo_wr/Waddr_reg_1_
+         DUT_FIFO/DUT_fifo_wr/gray_wr_ptr_reg_1_
+         DUT_FIFO/DUT_fifo_wr/gray_wr_ptr_reg_0_
+         DUT_FIFO/DUT_fifo_wr/gray_wr_ptr_reg_3_
+         DUT_FIFO/DUT_fifo_wr/Waddr_reg_0_
+         DUT_FIFO/DUT_fifo_rd/raddr_reg_2_
+         DUT_FIFO/DUT_fifo_rd/gray_rd_ptr_reg_3_
+         DUT_FIFO/DUT_fifo_rd/gray_rd_ptr_reg_1_
+         DUT_FIFO/DUT_fifo_rd/gray_rd_ptr_reg_0_
+         DUT_FIFO/DUT_fifo_rd/gray_rd_ptr_reg_2_
+         DUT_FIFO/DUT_fifo_rd/raddr_reg_1_
+         DUT_FIFO/DUT_fifo_rd/raddr_reg_0_
+         DUT_FIFO/DUT_fifo_rd/raddr_reg_3_
+         DUT_FIFO/DUT_W2R/sync_reg_reg_3__1_
+         DUT_FIFO/DUT_W2R/sync_reg_reg_2__1_
+         DUT_FIFO/DUT_W2R/sync_reg_reg_1__1_
+         DUT_FIFO/DUT_W2R/sync_reg_reg_0__1_
+         DUT_FIFO/DUT_W2R/sync_reg_reg_2__0_
+         DUT_FIFO/DUT_W2R/sync_reg_reg_3__0_
+         DUT_FIFO/DUT_W2R/sync_reg_reg_0__0_
+         DUT_FIFO/DUT_W2R/sync_reg_reg_1__0_
+         DUT_FIFO/DUT_R2W/sync_reg_reg_3__1_
+         DUT_FIFO/DUT_R2W/sync_reg_reg_2__1_
+         DUT_FIFO/DUT_R2W/sync_reg_reg_1__1_
+         DUT_FIFO/DUT_R2W/sync_reg_reg_0__1_
+         DUT_FIFO/DUT_R2W/sync_reg_reg_0__0_
+         DUT_FIFO/DUT_R2W/sync_reg_reg_1__0_
+         DUT_FIFO/DUT_R2W/sync_reg_reg_3__0_
+         DUT_FIFO/DUT_R2W/sync_reg_reg_2__0_
+         DUT_UART/U0_UART_TX/DUT_fsm/Current_State_reg_1_
+         DUT_UART/U0_UART_TX/DUT_fsm/Current_State_reg_2_
+         DUT_UART/U0_UART_TX/DUT_fsm/Current_State_reg_0_
+         DUT_UART/U0_UART_TX/DUT_ser/Counter_reg_2_
+         DUT_UART/U0_UART_TX/DUT_ser/Counter_reg_3_
+         DUT_UART/U0_UART_TX/DUT_ser/Counter_reg_0_
+         DUT_UART/U0_UART_TX/DUT_ser/Counter_reg_1_
+         DUT_UART/U0_UART_TX/DUT_ser/Counter_reg_5_
+         DUT_UART/U0_UART_TX/DUT_ser/Counter_reg_6_
+         DUT_UART/U0_UART_TX/DUT_ser/Counter_reg_7_
+         DUT_UART/U0_UART_TX/DUT_ser/Counter_reg_4_
+         DUT_UART/U0_UART_TX/DUT_ser/ser_done_reg
+         DUT_UART/U0_UART_TX/DUT_ser/ser_data_reg
+         DUT_UART/U0_UART_TX/DUT_ser/IN_Data_reg_7_
+         DUT_UART/U0_UART_TX/DUT_ser/IN_Data_reg_6_
+         DUT_UART/U0_UART_TX/DUT_ser/IN_Data_reg_5_
+         DUT_UART/U0_UART_TX/DUT_ser/IN_Data_reg_4_
+         DUT_UART/U0_UART_TX/DUT_ser/IN_Data_reg_3_
+         DUT_UART/U0_UART_TX/DUT_ser/IN_Data_reg_2_
+         DUT_UART/U0_UART_TX/DUT_ser/IN_Data_reg_1_
+         DUT_UART/U0_UART_TX/DUT_ser/IN_Data_reg_0_
+         DUT_UART/U0_UART_TX/DUT_par/par_bit_reg
+         DUT_UART/U0_UART_TX/DUT_par/IN_Data_reg_7_
+         DUT_UART/U0_UART_TX/DUT_par/IN_Data_reg_6_
+         DUT_UART/U0_UART_TX/DUT_par/IN_Data_reg_5_
+         DUT_UART/U0_UART_TX/DUT_par/IN_Data_reg_4_
+         DUT_UART/U0_UART_TX/DUT_par/IN_Data_reg_3_
+         DUT_UART/U0_UART_TX/DUT_par/IN_Data_reg_2_
+         DUT_UART/U0_UART_TX/DUT_par/IN_Data_reg_1_
+         DUT_UART/U0_UART_TX/DUT_par/IN_Data_reg_0_
+         DUT_UART/U0_UART_TX/DUT_mux/TX_OUT_reg
+         DUT_UART/U0_UART_RX/DUT_fsm/Current_State_reg_1_
+         DUT_UART/U0_UART_RX/DUT_fsm/Current_State_reg_2_
+         DUT_UART/U0_UART_RX/DUT_fsm/Current_State_reg_0_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/bit_cnt_reg_3_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/bit_cnt_reg_0_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/edge_cnt_reg_1_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/edge_cnt_reg_2_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/edge_cnt_reg_3_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/edge_cnt_reg_4_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/edge_cnt_reg_5_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/bit_cnt_reg_2_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/bit_cnt_reg_5_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/bit_cnt_reg_7_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/bit_cnt_reg_6_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/bit_cnt_reg_4_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/bit_cnt_reg_1_
+         DUT_UART/U0_UART_RX/DUT_edge_bit_cnt/edge_cnt_reg_0_
+         DUT_UART/U0_UART_RX/DUT_data_samp/sampled_bit_reg
+         DUT_UART/U0_UART_RX/DUT_data_samp/Done_reg
+         DUT_UART/U0_UART_RX/DUT_data_samp/bit3_sampled_reg
+         DUT_UART/U0_UART_RX/DUT_data_samp/bit2_sampled_reg
+         DUT_UART/U0_UART_RX/DUT_data_samp/bit1_sampled_reg
+         DUT_UART/U0_UART_RX/DUT_deser/i_reg_0_
+         DUT_UART/U0_UART_RX/DUT_deser/i_reg_1_
+         DUT_UART/U0_UART_RX/DUT_deser/i_reg_2_
+         DUT_UART/U0_UART_RX/DUT_deser/P_DATA_reg_2_
+         DUT_UART/U0_UART_RX/DUT_deser/P_DATA_reg_6_
+         DUT_UART/U0_UART_RX/DUT_deser/P_DATA_reg_4_
+         DUT_UART/U0_UART_RX/DUT_deser/P_DATA_reg_0_
+         DUT_UART/U0_UART_RX/DUT_deser/P_DATA_reg_1_
+         DUT_UART/U0_UART_RX/DUT_deser/P_DATA_reg_5_
+         DUT_UART/U0_UART_RX/DUT_deser/P_DATA_reg_3_
+         DUT_UART/U0_UART_RX/DUT_deser/P_DATA_reg_7_
+         DUT_UART/U0_UART_RX/DUT_par_chk/parr_err_reg
+         DUT_UART/U0_UART_RX/DUT_strt_chk/strt_glitch_reg
+         DUT_UART/U0_UART_RX/DUT_stp_chk/stp_err_reg
+
+....Inferring feed-through connections....
+Information: Test design rule checking completed. (TEST-123)
+  Running test coverage estimation...
+ 17390 faults were added to fault list.
+ ATPG performed for stuck fault model using internal pattern source.
+ ----------------------------------------------------------
+ #patterns     #faults     #ATPG faults  test      process
+ stored     detect/active  red/au/abort  coverage  CPU time
+ ---------  -------------  ------------  --------  --------
+ Begin deterministic ATPG: #uncollapsed_faults=13088, abort_limit=10...
+ 0            8196   4892         0/0/0    71.48%      0.00
+ 0            1473   3417         1/0/0    79.99%      0.00
+ 0             834   2581         3/0/0    84.81%      0.00
+ 0             509   2068         5/0/0    87.76%      0.00
+ 0             339   1728         6/0/0    89.73%      0.05
+ 0             373   1353         8/0/0    91.89%      0.05
+ 0             244   1102        14/0/0    93.33%      0.05
+ 0             145    951        19/0/0    94.20%      0.05
+ 0             143    801        24/0/0    95.07%      0.05
+ 0             121    671        32/0/1    95.82%      0.05
+ 0             121    541        38/0/1    96.57%      0.05
+ 0              91    439        47/0/1    97.16%      0.05
+ 0              72    355        55/1/2    97.63%      0.05
+ 0              75    267        64/2/3    98.14%      0.05
+ 0              68    179        74/3/3    98.64%      0.05
+ 0              38    104        88/3/5    99.07%      0.05
+ 0              42     39       102/3/5    99.45%      0.05
+ 0              22     10       104/3/5    99.62%      0.05
+ 
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                           0
+ -----------------------------------------------
+ 
+
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT      17103
+ Possibly detected                PT          1
+ Undetectable                     UD        221
+ ATPG untestable                  AU         56
+ Not detected                     ND          9
+ -----------------------------------------------
+ total faults                             17390
+ test coverage                            99.62%
+ -----------------------------------------------
+  Information: The test coverage above may be inferior
+               than the real test coverage with customized
+               protocol and test simulation library.
+1
