@@ -1,0 +1,30 @@
+# Load the necessary libraries and design units
+vlib work
+vmap work work
+
+# Compile the source files
+vlog -f sourcefile.txt
+# Load the testbench module
+vsim -gui work.SYS_TB
+
+# Add necessary waveforms 
+add wave -position insertpoint  \
+sim:/SYS_TB/DUT/RST \
+sim:/SYS_TB/DUT/UART_CLK \
+sim:/SYS_TB/DUT/REF_CLK \
+sim:/SYS_TB/DUT/UART_TX_CLK \
+sim:/SYS_TB/DUT/UART_RX_CLK \
+sim:/SYS_TB/DUT/RX_IN \
+sim:/SYS_TB/DUT/UART_RX_SYNC \
+sim:/SYS_TB/DUT/UART_TX_SYNC \
+sim:/SYS_TB/DUT/DUT_SYS_CTRL/Current_State \
+sim:/SYS_TB/DUT/TX_OUT \
+sim:/SYS_TB/DUT/DUT_UART/U0_UART_TX/DUT_fsm/Current_State \
+sim:/SYS_TB/DUT/parity_error \
+sim:/SYS_TB/DUT/framing_error \
+sim:/SYS_TB/DUT/DUT_REGFILE/regArr 
+
+
+# Run the simulation
+run -all
+
